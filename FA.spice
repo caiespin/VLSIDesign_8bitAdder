@@ -1,0 +1,69 @@
+* SPICE3 file created from FA.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 vdd a_11_n26# COUT vdd pfet w=12 l=2
++  ad=324 pd=174 as=60 ps=34
+M1001 a_43_2# A a_36_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=192 ps=104
+M1002 a_11_n26# B a_43_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1003 a_36_2# CIN a_11_n26# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 vdd A a_36_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1005 a_36_2# B vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 a_105_2# A vdd vdd pfet w=12 l=2
++  ad=204 pd=106 as=0 ps=0
+M1007 vdd B a_105_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 a_105_2# CIN vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1009 a_129_2# A a_105_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1010 a_137_2# B a_129_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1011 a_98_n43# CIN a_137_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1012 a_105_2# a_11_n26# a_98_n43# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1013 SUM a_98_n43# vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1014 gnd a_11_n26# COUT Gnd nfet w=4 l=2
++  ad=132 pd=114 as=20 ps=18
+M1015 SUM a_98_n43# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1016 gnd A a_36_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=44 ps=38
+M1017 a_36_n43# B gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 a_11_n26# CIN a_36_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1019 a_67_n43# A a_11_n26# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1020 gnd B a_67_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1021 a_105_n43# A a_98_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=40 ps=36
+M1022 a_113_n43# B a_105_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1023 gnd CIN a_113_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 a_129_n43# A gnd Gnd nfet w=4 l=2
++  ad=48 pd=40 as=0 ps=0
+M1025 gnd B a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 a_129_n43# CIN gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1027 a_98_n43# a_11_n26# a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 vdd a_36_2# 3.25fF
+C1 vdd a_105_2# 3.41fF
+C2 gnd Gnd 6.05fF
+C3 a_98_n43# Gnd 5.76fF
+C4 CIN Gnd 2.53fF
+C5 B Gnd 3.28fF
+C6 A Gnd 3.60fF
+C7 a_11_n26# Gnd 7.05fF
+C8 vdd Gnd 23.98fF

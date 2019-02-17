@@ -1,0 +1,104 @@
+timestamp 1550279665
+version 8.2
+tech scmos
+style AMI0.5um(amic5)from:T11Z
+scale 1000 1 30
+resistclasses 82400 102700 816000 816000 1 22300 41300 41300 90 90 60
+use FA FA_0 -1 0 115 0 1 50
+use FA FA_1 -1 0 315 0 1 50
+use FA FA_2 -1 0 515 0 1 50
+use FA FA_3 -1 0 715 0 1 50
+use FA FA_4 -1 0 915 0 1 50
+use FA FA_5 -1 0 1115 0 1 50
+use FA FA_6 -1 0 1315 0 1 50
+use FA FA_7 -1 0 1515 0 1 50
+node "m1_n79_0#" 36 88740.2 -79 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6376 3196 0 0 0 0
+node "m1_1305_33#" 3 5504.88 1305 33 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 492 254 0 0
+node "m1_1105_33#" 3 5504.88 1105 33 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 492 254 0 0
+node "m1_905_33#" 3 5504.88 905 33 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 492 254 0 0
+node "m1_705_33#" 3 5504.88 705 33 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 492 254 0 0
+node "m1_505_33#" 3 5504.88 505 33 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 492 254 0 0
+node "m1_305_33#" 3 5504.88 305 33 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 492 254 0 0
+node "m1_105_33#" 3 5504.88 105 33 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 492 254 0 0
+node "m1_n79_73#" 36 88740.2 -79 73 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6376 3196 0 0 0 0
+subcap "m1_n79_0#" -81129
+subcap "m1_n79_73#" -76138.5
+subcap "m1_105_33#" -3882
+cap "FA_1/gnd" "FA_1/CIN" 228.96
+cap "FA_1/CIN" "FA_1/A" 142.2
+cap "FA_1/a_98_n43#" "FA_1/CIN" 430.8
+cap "FA_1/a_11_n26#" "FA_1/CIN" 147.6
+cap "FA_1/SUM" "FA_1/CIN" 228.96
+cap "FA_1/CIN" "FA_1/B" 142.2
+subcap "m1_305_33#" -3882
+cap "FA_2/gnd" "FA_2/CIN" 228.96
+cap "FA_2/a_98_n43#" "FA_2/CIN" 430.8
+cap "FA_2/a_11_n26#" "FA_2/CIN" 147.6
+cap "FA_2/CIN" "FA_2/B" 142.2
+cap "FA_2/CIN" "FA_2/A" 142.2
+cap "FA_2/CIN" "FA_2/SUM" 228.96
+subcap "m1_505_33#" -3882
+cap "FA_3/a_98_n43#" "FA_3/CIN" 430.8
+cap "FA_3/a_11_n26#" "FA_3/CIN" 147.6
+cap "FA_3/gnd" "FA_3/CIN" 228.96
+cap "FA_3/CIN" "FA_3/B" 142.2
+cap "FA_3/CIN" "FA_3/A" 142.2
+cap "FA_3/CIN" "FA_3/SUM" 228.96
+subcap "m1_705_33#" -3882
+cap "FA_4/a_98_n43#" "FA_4/CIN" 430.8
+cap "FA_4/a_11_n26#" "FA_4/CIN" 147.6
+cap "FA_4/CIN" "FA_4/B" 142.2
+cap "FA_4/CIN" "FA_4/A" 142.2
+cap "FA_4/CIN" "FA_4/SUM" 228.96
+cap "FA_4/gnd" "FA_4/CIN" 228.96
+subcap "m1_905_33#" -3882
+cap "FA_5/CIN" "FA_5/B" 142.2
+cap "FA_5/gnd" "FA_5/CIN" 228.96
+cap "FA_5/CIN" "FA_5/A" 142.2
+cap "FA_5/CIN" "FA_5/SUM" 228.96
+cap "FA_5/CIN" "FA_5/a_98_n43#" 430.8
+cap "FA_5/a_11_n26#" "FA_5/CIN" 147.6
+subcap "m1_1105_33#" -3882
+cap "FA_6/CIN" "FA_6/A" 142.2
+cap "FA_6/CIN" "FA_6/SUM" 228.96
+cap "FA_6/gnd" "FA_6/CIN" 228.96
+cap "FA_6/a_98_n43#" "FA_6/CIN" 430.8
+cap "FA_6/CIN" "FA_6/a_11_n26#" 147.6
+cap "FA_6/CIN" "FA_6/B" 142.2
+subcap "m1_1305_33#" -3882
+cap "FA_7/B" "FA_7/CIN" 142.2
+cap "FA_7/A" "FA_7/CIN" 142.2
+cap "FA_7/gnd" "FA_7/CIN" 228.96
+cap "FA_7/SUM" "FA_7/CIN" 228.96
+cap "FA_7/a_11_n26#" "FA_7/CIN" 147.6
+cap "FA_7/a_98_n43#" "FA_7/CIN" 430.8
+merge "FA_7/CIN" "FA_6/COUT" -4700.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -416 -216 0 0
+merge "FA_6/COUT" "m1_1305_33#"
+merge "FA_7/gnd" "FA_6/gnd" -87802.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6040 -3196 0 0 0 0
+merge "FA_6/gnd" "FA_5/gnd"
+merge "FA_5/gnd" "FA_4/gnd"
+merge "FA_4/gnd" "FA_3/gnd"
+merge "FA_3/gnd" "FA_2/gnd"
+merge "FA_2/gnd" "FA_1/gnd"
+merge "FA_1/gnd" "FA_0/gnd"
+merge "FA_0/gnd" "m1_n79_0#"
+merge "FA_5/CIN" "FA_4/COUT" -4700.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -416 -216 0 0
+merge "FA_4/COUT" "m1_905_33#"
+merge "FA_6/CIN" "FA_5/COUT" -4700.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -416 -216 0 0
+merge "FA_5/COUT" "m1_1105_33#"
+merge "FA_7/vdd" "FA_6/vdd" -87802.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6040 -3196 0 0 0 0
+merge "FA_6/vdd" "FA_5/vdd"
+merge "FA_5/vdd" "FA_4/vdd"
+merge "FA_4/vdd" "FA_3/vdd"
+merge "FA_3/vdd" "FA_2/vdd"
+merge "FA_2/vdd" "FA_1/vdd"
+merge "FA_1/vdd" "FA_0/vdd"
+merge "FA_0/vdd" "m1_n79_73#"
+merge "FA_2/CIN" "FA_1/COUT" -4700.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -416 -216 0 0
+merge "FA_1/COUT" "m1_305_33#"
+merge "FA_4/CIN" "FA_3/COUT" -4700.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -416 -216 0 0
+merge "FA_3/COUT" "m1_705_33#"
+merge "FA_3/CIN" "FA_2/COUT" -4700.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -416 -216 0 0
+merge "FA_2/COUT" "m1_505_33#"
+merge "FA_1/CIN" "FA_0/COUT" -4700.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -416 -216 0 0
+merge "FA_0/COUT" "m1_105_33#"

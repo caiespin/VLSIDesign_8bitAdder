@@ -1,0 +1,510 @@
+* SPICE3 file created from ADDER.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 vdd FA_7/a_11_n26# FA_7/COUT vdd pfet w=12 l=2
++  ad=2592 pd=1392 as=60 ps=34
+M1001 FA_7/a_43_2# FA_7/A FA_7/a_36_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=192 ps=104
+M1002 FA_7/a_11_n26# FA_7/B FA_7/a_43_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1003 FA_7/a_36_2# FA_7/CIN FA_7/a_11_n26# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 vdd FA_7/A FA_7/a_36_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1005 FA_7/a_36_2# FA_7/B vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 FA_7/a_105_2# FA_7/A vdd vdd pfet w=12 l=2
++  ad=204 pd=106 as=0 ps=0
+M1007 vdd FA_7/B FA_7/a_105_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 FA_7/a_105_2# FA_7/CIN vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1009 FA_7/a_129_2# FA_7/A FA_7/a_105_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1010 FA_7/a_137_2# FA_7/B FA_7/a_129_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1011 FA_7/a_98_n43# FA_7/CIN FA_7/a_137_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1012 FA_7/a_105_2# FA_7/a_11_n26# FA_7/a_98_n43# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1013 FA_7/SUM FA_7/a_98_n43# vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1014 gnd FA_7/a_11_n26# FA_7/COUT Gnd nfet w=4 l=2
++  ad=1056 pd=912 as=20 ps=18
+M1015 FA_7/SUM FA_7/a_98_n43# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1016 gnd FA_7/A FA_7/a_36_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=44 ps=38
+M1017 FA_7/a_36_n43# FA_7/B gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 FA_7/a_11_n26# FA_7/CIN FA_7/a_36_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1019 FA_7/a_67_n43# FA_7/A FA_7/a_11_n26# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1020 gnd FA_7/B FA_7/a_67_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1021 FA_7/a_105_n43# FA_7/A FA_7/a_98_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=40 ps=36
+M1022 FA_7/a_113_n43# FA_7/B FA_7/a_105_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1023 gnd FA_7/CIN FA_7/a_113_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 FA_7/a_129_n43# FA_7/A gnd Gnd nfet w=4 l=2
++  ad=48 pd=40 as=0 ps=0
+M1025 gnd FA_7/B FA_7/a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 FA_7/a_129_n43# FA_7/CIN gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1027 FA_7/a_98_n43# FA_7/a_11_n26# FA_7/a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1028 vdd FA_6/a_11_n26# FA_7/CIN vdd pfet w=12 l=2
++  ad=0 pd=0 as=60 ps=34
+M1029 FA_6/a_43_2# FA_6/A FA_6/a_36_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=192 ps=104
+M1030 FA_6/a_11_n26# FA_6/B FA_6/a_43_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1031 FA_6/a_36_2# FA_6/CIN FA_6/a_11_n26# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 vdd FA_6/A FA_6/a_36_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1033 FA_6/a_36_2# FA_6/B vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1034 FA_6/a_105_2# FA_6/A vdd vdd pfet w=12 l=2
++  ad=204 pd=106 as=0 ps=0
+M1035 vdd FA_6/B FA_6/a_105_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 FA_6/a_105_2# FA_6/CIN vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1037 FA_6/a_129_2# FA_6/A FA_6/a_105_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1038 FA_6/a_137_2# FA_6/B FA_6/a_129_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1039 FA_6/a_98_n43# FA_6/CIN FA_6/a_137_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1040 FA_6/a_105_2# FA_6/a_11_n26# FA_6/a_98_n43# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1041 FA_6/SUM FA_6/a_98_n43# vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1042 gnd FA_6/a_11_n26# FA_7/CIN Gnd nfet w=4 l=2
++  ad=0 pd=0 as=20 ps=18
+M1043 FA_6/SUM FA_6/a_98_n43# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1044 gnd FA_6/A FA_6/a_36_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=44 ps=38
+M1045 FA_6/a_36_n43# FA_6/B gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1046 FA_6/a_11_n26# FA_6/CIN FA_6/a_36_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1047 FA_6/a_67_n43# FA_6/A FA_6/a_11_n26# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1048 gnd FA_6/B FA_6/a_67_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1049 FA_6/a_105_n43# FA_6/A FA_6/a_98_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=40 ps=36
+M1050 FA_6/a_113_n43# FA_6/B FA_6/a_105_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1051 gnd FA_6/CIN FA_6/a_113_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1052 FA_6/a_129_n43# FA_6/A gnd Gnd nfet w=4 l=2
++  ad=48 pd=40 as=0 ps=0
+M1053 gnd FA_6/B FA_6/a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1054 FA_6/a_129_n43# FA_6/CIN gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1055 FA_6/a_98_n43# FA_6/a_11_n26# FA_6/a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1056 vdd FA_5/a_11_n26# FA_6/CIN vdd pfet w=12 l=2
++  ad=0 pd=0 as=60 ps=34
+M1057 FA_5/a_43_2# FA_5/A FA_5/a_36_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=192 ps=104
+M1058 FA_5/a_11_n26# FA_5/B FA_5/a_43_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1059 FA_5/a_36_2# FA_5/CIN FA_5/a_11_n26# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1060 vdd FA_5/A FA_5/a_36_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1061 FA_5/a_36_2# FA_5/B vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1062 FA_5/a_105_2# FA_5/A vdd vdd pfet w=12 l=2
++  ad=204 pd=106 as=0 ps=0
+M1063 vdd FA_5/B FA_5/a_105_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1064 FA_5/a_105_2# FA_5/CIN vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1065 FA_5/a_129_2# FA_5/A FA_5/a_105_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1066 FA_5/a_137_2# FA_5/B FA_5/a_129_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1067 FA_5/a_98_n43# FA_5/CIN FA_5/a_137_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1068 FA_5/a_105_2# FA_5/a_11_n26# FA_5/a_98_n43# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1069 FA_5/SUM FA_5/a_98_n43# vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1070 gnd FA_5/a_11_n26# FA_6/CIN Gnd nfet w=4 l=2
++  ad=0 pd=0 as=20 ps=18
+M1071 FA_5/SUM FA_5/a_98_n43# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1072 gnd FA_5/A FA_5/a_36_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=44 ps=38
+M1073 FA_5/a_36_n43# FA_5/B gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1074 FA_5/a_11_n26# FA_5/CIN FA_5/a_36_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1075 FA_5/a_67_n43# FA_5/A FA_5/a_11_n26# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1076 gnd FA_5/B FA_5/a_67_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1077 FA_5/a_105_n43# FA_5/A FA_5/a_98_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=40 ps=36
+M1078 FA_5/a_113_n43# FA_5/B FA_5/a_105_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1079 gnd FA_5/CIN FA_5/a_113_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1080 FA_5/a_129_n43# FA_5/A gnd Gnd nfet w=4 l=2
++  ad=48 pd=40 as=0 ps=0
+M1081 gnd FA_5/B FA_5/a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1082 FA_5/a_129_n43# FA_5/CIN gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1083 FA_5/a_98_n43# FA_5/a_11_n26# FA_5/a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1084 vdd FA_4/a_11_n26# FA_5/CIN vdd pfet w=12 l=2
++  ad=0 pd=0 as=60 ps=34
+M1085 FA_4/a_43_2# FA_4/A FA_4/a_36_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=192 ps=104
+M1086 FA_4/a_11_n26# FA_4/B FA_4/a_43_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1087 FA_4/a_36_2# FA_4/CIN FA_4/a_11_n26# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1088 vdd FA_4/A FA_4/a_36_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1089 FA_4/a_36_2# FA_4/B vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1090 FA_4/a_105_2# FA_4/A vdd vdd pfet w=12 l=2
++  ad=204 pd=106 as=0 ps=0
+M1091 vdd FA_4/B FA_4/a_105_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1092 FA_4/a_105_2# FA_4/CIN vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1093 FA_4/a_129_2# FA_4/A FA_4/a_105_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1094 FA_4/a_137_2# FA_4/B FA_4/a_129_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1095 FA_4/a_98_n43# FA_4/CIN FA_4/a_137_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1096 FA_4/a_105_2# FA_4/a_11_n26# FA_4/a_98_n43# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1097 FA_4/SUM FA_4/a_98_n43# vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1098 gnd FA_4/a_11_n26# FA_5/CIN Gnd nfet w=4 l=2
++  ad=0 pd=0 as=20 ps=18
+M1099 FA_4/SUM FA_4/a_98_n43# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1100 gnd FA_4/A FA_4/a_36_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=44 ps=38
+M1101 FA_4/a_36_n43# FA_4/B gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1102 FA_4/a_11_n26# FA_4/CIN FA_4/a_36_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1103 FA_4/a_67_n43# FA_4/A FA_4/a_11_n26# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1104 gnd FA_4/B FA_4/a_67_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1105 FA_4/a_105_n43# FA_4/A FA_4/a_98_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=40 ps=36
+M1106 FA_4/a_113_n43# FA_4/B FA_4/a_105_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1107 gnd FA_4/CIN FA_4/a_113_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1108 FA_4/a_129_n43# FA_4/A gnd Gnd nfet w=4 l=2
++  ad=48 pd=40 as=0 ps=0
+M1109 gnd FA_4/B FA_4/a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1110 FA_4/a_129_n43# FA_4/CIN gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1111 FA_4/a_98_n43# FA_4/a_11_n26# FA_4/a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1112 vdd FA_3/a_11_n26# FA_4/CIN vdd pfet w=12 l=2
++  ad=0 pd=0 as=60 ps=34
+M1113 FA_3/a_43_2# FA_3/A FA_3/a_36_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=192 ps=104
+M1114 FA_3/a_11_n26# FA_3/B FA_3/a_43_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1115 FA_3/a_36_2# FA_3/CIN FA_3/a_11_n26# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1116 vdd FA_3/A FA_3/a_36_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1117 FA_3/a_36_2# FA_3/B vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1118 FA_3/a_105_2# FA_3/A vdd vdd pfet w=12 l=2
++  ad=204 pd=106 as=0 ps=0
+M1119 vdd FA_3/B FA_3/a_105_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1120 FA_3/a_105_2# FA_3/CIN vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1121 FA_3/a_129_2# FA_3/A FA_3/a_105_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1122 FA_3/a_137_2# FA_3/B FA_3/a_129_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1123 FA_3/a_98_n43# FA_3/CIN FA_3/a_137_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1124 FA_3/a_105_2# FA_3/a_11_n26# FA_3/a_98_n43# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1125 FA_3/SUM FA_3/a_98_n43# vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1126 gnd FA_3/a_11_n26# FA_4/CIN Gnd nfet w=4 l=2
++  ad=0 pd=0 as=20 ps=18
+M1127 FA_3/SUM FA_3/a_98_n43# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1128 gnd FA_3/A FA_3/a_36_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=44 ps=38
+M1129 FA_3/a_36_n43# FA_3/B gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1130 FA_3/a_11_n26# FA_3/CIN FA_3/a_36_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1131 FA_3/a_67_n43# FA_3/A FA_3/a_11_n26# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1132 gnd FA_3/B FA_3/a_67_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1133 FA_3/a_105_n43# FA_3/A FA_3/a_98_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=40 ps=36
+M1134 FA_3/a_113_n43# FA_3/B FA_3/a_105_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1135 gnd FA_3/CIN FA_3/a_113_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1136 FA_3/a_129_n43# FA_3/A gnd Gnd nfet w=4 l=2
++  ad=48 pd=40 as=0 ps=0
+M1137 gnd FA_3/B FA_3/a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1138 FA_3/a_129_n43# FA_3/CIN gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1139 FA_3/a_98_n43# FA_3/a_11_n26# FA_3/a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1140 vdd FA_2/a_11_n26# FA_3/CIN vdd pfet w=12 l=2
++  ad=0 pd=0 as=60 ps=34
+M1141 FA_2/a_43_2# FA_2/A FA_2/a_36_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=192 ps=104
+M1142 FA_2/a_11_n26# FA_2/B FA_2/a_43_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1143 FA_2/a_36_2# FA_2/CIN FA_2/a_11_n26# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1144 vdd FA_2/A FA_2/a_36_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1145 FA_2/a_36_2# FA_2/B vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1146 FA_2/a_105_2# FA_2/A vdd vdd pfet w=12 l=2
++  ad=204 pd=106 as=0 ps=0
+M1147 vdd FA_2/B FA_2/a_105_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1148 FA_2/a_105_2# FA_2/CIN vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1149 FA_2/a_129_2# FA_2/A FA_2/a_105_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1150 FA_2/a_137_2# FA_2/B FA_2/a_129_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1151 FA_2/a_98_n43# FA_2/CIN FA_2/a_137_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1152 FA_2/a_105_2# FA_2/a_11_n26# FA_2/a_98_n43# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1153 FA_2/SUM FA_2/a_98_n43# vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1154 gnd FA_2/a_11_n26# FA_3/CIN Gnd nfet w=4 l=2
++  ad=0 pd=0 as=20 ps=18
+M1155 FA_2/SUM FA_2/a_98_n43# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1156 gnd FA_2/A FA_2/a_36_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=44 ps=38
+M1157 FA_2/a_36_n43# FA_2/B gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1158 FA_2/a_11_n26# FA_2/CIN FA_2/a_36_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1159 FA_2/a_67_n43# FA_2/A FA_2/a_11_n26# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1160 gnd FA_2/B FA_2/a_67_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1161 FA_2/a_105_n43# FA_2/A FA_2/a_98_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=40 ps=36
+M1162 FA_2/a_113_n43# FA_2/B FA_2/a_105_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1163 gnd FA_2/CIN FA_2/a_113_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1164 FA_2/a_129_n43# FA_2/A gnd Gnd nfet w=4 l=2
++  ad=48 pd=40 as=0 ps=0
+M1165 gnd FA_2/B FA_2/a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1166 FA_2/a_129_n43# FA_2/CIN gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1167 FA_2/a_98_n43# FA_2/a_11_n26# FA_2/a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1168 vdd FA_1/a_11_n26# FA_2/CIN vdd pfet w=12 l=2
++  ad=0 pd=0 as=60 ps=34
+M1169 FA_1/a_43_2# FA_1/A FA_1/a_36_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=192 ps=104
+M1170 FA_1/a_11_n26# FA_1/B FA_1/a_43_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1171 FA_1/a_36_2# FA_1/CIN FA_1/a_11_n26# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1172 vdd FA_1/A FA_1/a_36_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1173 FA_1/a_36_2# FA_1/B vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1174 FA_1/a_105_2# FA_1/A vdd vdd pfet w=12 l=2
++  ad=204 pd=106 as=0 ps=0
+M1175 vdd FA_1/B FA_1/a_105_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1176 FA_1/a_105_2# FA_1/CIN vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1177 FA_1/a_129_2# FA_1/A FA_1/a_105_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1178 FA_1/a_137_2# FA_1/B FA_1/a_129_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1179 FA_1/a_98_n43# FA_1/CIN FA_1/a_137_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1180 FA_1/a_105_2# FA_1/a_11_n26# FA_1/a_98_n43# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1181 FA_1/SUM FA_1/a_98_n43# vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1182 gnd FA_1/a_11_n26# FA_2/CIN Gnd nfet w=4 l=2
++  ad=0 pd=0 as=20 ps=18
+M1183 FA_1/SUM FA_1/a_98_n43# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1184 gnd FA_1/A FA_1/a_36_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=44 ps=38
+M1185 FA_1/a_36_n43# FA_1/B gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1186 FA_1/a_11_n26# FA_1/CIN FA_1/a_36_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1187 FA_1/a_67_n43# FA_1/A FA_1/a_11_n26# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1188 gnd FA_1/B FA_1/a_67_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1189 FA_1/a_105_n43# FA_1/A FA_1/a_98_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=40 ps=36
+M1190 FA_1/a_113_n43# FA_1/B FA_1/a_105_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1191 gnd FA_1/CIN FA_1/a_113_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1192 FA_1/a_129_n43# FA_1/A gnd Gnd nfet w=4 l=2
++  ad=48 pd=40 as=0 ps=0
+M1193 gnd FA_1/B FA_1/a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1194 FA_1/a_129_n43# FA_1/CIN gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1195 FA_1/a_98_n43# FA_1/a_11_n26# FA_1/a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1196 vdd FA_0/a_11_n26# FA_1/CIN vdd pfet w=12 l=2
++  ad=0 pd=0 as=60 ps=34
+M1197 FA_0/a_43_2# FA_0/A FA_0/a_36_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=192 ps=104
+M1198 FA_0/a_11_n26# FA_0/B FA_0/a_43_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1199 FA_0/a_36_2# FA_0/CIN FA_0/a_11_n26# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1200 vdd FA_0/A FA_0/a_36_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1201 FA_0/a_36_2# FA_0/B vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1202 FA_0/a_105_2# FA_0/A vdd vdd pfet w=12 l=2
++  ad=204 pd=106 as=0 ps=0
+M1203 vdd FA_0/B FA_0/a_105_2# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1204 FA_0/a_105_2# FA_0/CIN vdd vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1205 FA_0/a_129_2# FA_0/A FA_0/a_105_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1206 FA_0/a_137_2# FA_0/B FA_0/a_129_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1207 FA_0/a_98_n43# FA_0/CIN FA_0/a_137_2# vdd pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1208 FA_0/a_105_2# FA_0/a_11_n26# FA_0/a_98_n43# vdd pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1209 FA_0/SUM FA_0/a_98_n43# vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1210 gnd FA_0/a_11_n26# FA_1/CIN Gnd nfet w=4 l=2
++  ad=0 pd=0 as=20 ps=18
+M1211 FA_0/SUM FA_0/a_98_n43# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1212 gnd FA_0/A FA_0/a_36_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=44 ps=38
+M1213 FA_0/a_36_n43# FA_0/B gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1214 FA_0/a_11_n26# FA_0/CIN FA_0/a_36_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1215 FA_0/a_67_n43# FA_0/A FA_0/a_11_n26# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1216 gnd FA_0/B FA_0/a_67_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1217 FA_0/a_105_n43# FA_0/A FA_0/a_98_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=40 ps=36
+M1218 FA_0/a_113_n43# FA_0/B FA_0/a_105_n43# Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1219 gnd FA_0/CIN FA_0/a_113_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1220 FA_0/a_129_n43# FA_0/A gnd Gnd nfet w=4 l=2
++  ad=48 pd=40 as=0 ps=0
+M1221 gnd FA_0/B FA_0/a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1222 FA_0/a_129_n43# FA_0/CIN gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1223 FA_0/a_98_n43# FA_0/a_11_n26# FA_0/a_129_n43# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 FA_6/a_105_2# vdd 3.41fF
+C1 vdd FA_3/a_36_2# 3.25fF
+C2 vdd FA_4/a_36_2# 3.25fF
+C3 FA_5/a_36_2# vdd 3.25fF
+C4 vdd FA_0/a_105_2# 3.41fF
+C5 vdd FA_3/a_105_2# 3.41fF
+C6 vdd FA_1/a_36_2# 3.25fF
+C7 vdd FA_4/a_105_2# 3.41fF
+C8 vdd FA_7/a_36_2# 3.25fF
+C9 vdd FA_2/a_105_2# 3.41fF
+C10 vdd FA_0/a_36_2# 3.25fF
+C11 vdd FA_5/a_105_2# 3.41fF
+C12 vdd FA_1/a_105_2# 3.41fF
+C13 vdd FA_2/a_36_2# 3.25fF
+C14 vdd FA_7/a_105_2# 3.41fF
+C15 FA_6/a_36_2# vdd 3.25fF
+C16 FA_0/a_98_n43# Gnd 5.76fF
+C17 FA_0/CIN Gnd 2.53fF
+C18 FA_0/B Gnd 3.28fF
+C19 FA_0/A Gnd 3.60fF
+C20 FA_0/a_11_n26# Gnd 7.05fF
+C21 FA_1/a_98_n43# Gnd 5.76fF
+C22 FA_1/CIN Gnd 5.22fF
+C23 FA_1/B Gnd 3.28fF
+C24 FA_1/A Gnd 3.60fF
+C25 FA_1/a_11_n26# Gnd 7.05fF
+C26 FA_2/a_98_n43# Gnd 5.76fF
+C27 FA_2/CIN Gnd 5.22fF
+C28 FA_2/B Gnd 3.28fF
+C29 FA_2/A Gnd 3.60fF
+C30 FA_2/a_11_n26# Gnd 7.05fF
+C31 FA_3/a_98_n43# Gnd 5.76fF
+C32 FA_3/CIN Gnd 5.22fF
+C33 FA_3/B Gnd 3.28fF
+C34 FA_3/A Gnd 3.60fF
+C35 FA_3/a_11_n26# Gnd 7.05fF
+C36 FA_4/a_98_n43# Gnd 5.76fF
+C37 FA_4/CIN Gnd 5.22fF
+C38 FA_4/B Gnd 3.28fF
+C39 FA_4/A Gnd 3.60fF
+C40 FA_4/a_11_n26# Gnd 7.05fF
+C41 FA_5/a_98_n43# Gnd 5.76fF
+C42 FA_5/CIN Gnd 5.22fF
+C43 FA_5/B Gnd 3.28fF
+C44 FA_5/A Gnd 3.60fF
+C45 FA_5/a_11_n26# Gnd 7.05fF
+C46 FA_6/a_98_n43# Gnd 5.76fF
+C47 FA_6/CIN Gnd 5.22fF
+C48 FA_6/B Gnd 3.28fF
+C49 FA_6/A Gnd 3.60fF
+C50 FA_6/a_11_n26# Gnd 7.05fF
+C51 gnd Gnd 56.04fF
+C52 FA_7/a_98_n43# Gnd 5.76fF
+C53 FA_7/CIN Gnd 5.22fF
+C54 FA_7/B Gnd 3.28fF
+C55 FA_7/A Gnd 3.60fF
+C56 FA_7/a_11_n26# Gnd 7.05fF
+C57 vdd Gnd 204.46fF

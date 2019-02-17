@@ -1,0 +1,227 @@
+*SPICE (flattened) circuit "ADDER" from XCircuit v3.9 rev 72
+
+M2 COUT FA_7/int15 GND gnd nfet w=4 l=2
+M1 COUT FA_7/int15 Vdd vdd pfet W=12 L=2 M=1
+M10 FA_7/int38 A7 GND gnd nfet w=4 l=2
+M11 FA_7/int38 B7 GND gnd nfet w=4 l=2
+M8 FA_7/int15 int33 FA_7/int38 gnd nfet w=4 l=2
+M12 FA_7/int37 B7 GND gnd nfet w=4 l=2
+M9 FA_7/int15 A7 FA_7/int37 gnd nfet w=4 l=2
+M6 FA_7/int15 int33 FA_7/int33 vdd pfet W=12 L=2 M=1
+M7 FA_7/int15 B7 FA_7/int34 vdd pfet W=12 L=2 M=1
+M5 FA_7/int34 A7 FA_7/int33 vdd pfet W=12 L=2 M=1
+M3 FA_7/int33 A7 Vdd vdd pfet W=12 L=2 M=1
+M4 FA_7/int33 B7 Vdd vdd pfet W=12 L=2 M=1
+M28 SUM7 FA_7/int12 GND gnd nfet w=4 l=2
+M21 FA_7/int16 A7 GND gnd nfet w=4 l=2
+M22 FA_7/int16 B7 GND gnd nfet w=4 l=2
+M23 FA_7/int16 int33 GND gnd nfet w=4 l=2
+M20 FA_7/int12 FA_7/int15 FA_7/int16 gnd nfet w=4 l=2
+M26 FA_7/int14 int33 GND gnd nfet w=4 l=2
+M25 FA_7/int13 B7 FA_7/int14 gnd nfet w=4 l=2
+M24 FA_7/int12 A7 FA_7/int13 gnd nfet w=4 l=2
+M27 SUM7 FA_7/int12 Vdd vdd pfet W=12 L=2 M=1
+M16 FA_7/int12 FA_7/int15 FA_7/int9 vdd pfet W=12 L=2 M=1
+M19 FA_7/int12 int33 FA_7/int11 vdd pfet W=12 L=2 M=1
+M18 FA_7/int11 B7 FA_7/int10 vdd pfet W=12 L=2 M=1
+M17 FA_7/int10 A7 FA_7/int9 vdd pfet W=12 L=2 M=1
+M13 FA_7/int9 int33 Vdd vdd pfet W=12 L=2 M=1
+M15 FA_7/int9 A7 Vdd vdd pfet W=12 L=2 M=1
+M14 FA_7/int9 B7 Vdd vdd pfet W=12 L=2 M=1
+M2 int33 FA_6/int15 GND gnd nfet w=4 l=2
+M1 int33 FA_6/int15 Vdd vdd pfet W=12 L=2 M=1
+M10 FA_6/int38 A6 GND gnd nfet w=4 l=2
+M11 FA_6/int38 B6 GND gnd nfet w=4 l=2
+M8 FA_6/int15 int32 FA_6/int38 gnd nfet w=4 l=2
+M12 FA_6/int37 B6 GND gnd nfet w=4 l=2
+M9 FA_6/int15 A6 FA_6/int37 gnd nfet w=4 l=2
+M6 FA_6/int15 int32 FA_6/int33 vdd pfet W=12 L=2 M=1
+M7 FA_6/int15 B6 FA_6/int34 vdd pfet W=12 L=2 M=1
+M5 FA_6/int34 A6 FA_6/int33 vdd pfet W=12 L=2 M=1
+M3 FA_6/int33 A6 Vdd vdd pfet W=12 L=2 M=1
+M4 FA_6/int33 B6 Vdd vdd pfet W=12 L=2 M=1
+M28 SUM6 FA_6/int12 GND gnd nfet w=4 l=2
+M21 FA_6/int16 A6 GND gnd nfet w=4 l=2
+M22 FA_6/int16 B6 GND gnd nfet w=4 l=2
+M23 FA_6/int16 int32 GND gnd nfet w=4 l=2
+M20 FA_6/int12 FA_6/int15 FA_6/int16 gnd nfet w=4 l=2
+M26 FA_6/int14 int32 GND gnd nfet w=4 l=2
+M25 FA_6/int13 B6 FA_6/int14 gnd nfet w=4 l=2
+M24 FA_6/int12 A6 FA_6/int13 gnd nfet w=4 l=2
+M27 SUM6 FA_6/int12 Vdd vdd pfet W=12 L=2 M=1
+M16 FA_6/int12 FA_6/int15 FA_6/int9 vdd pfet W=12 L=2 M=1
+M19 FA_6/int12 int32 FA_6/int11 vdd pfet W=12 L=2 M=1
+M18 FA_6/int11 B6 FA_6/int10 vdd pfet W=12 L=2 M=1
+M17 FA_6/int10 A6 FA_6/int9 vdd pfet W=12 L=2 M=1
+M13 FA_6/int9 int32 Vdd vdd pfet W=12 L=2 M=1
+M15 FA_6/int9 A6 Vdd vdd pfet W=12 L=2 M=1
+M14 FA_6/int9 B6 Vdd vdd pfet W=12 L=2 M=1
+M2 int32 FA_5/int15 GND gnd nfet w=4 l=2
+M1 int32 FA_5/int15 Vdd vdd pfet W=12 L=2 M=1
+M10 FA_5/int38 A5 GND gnd nfet w=4 l=2
+M11 FA_5/int38 B5 GND gnd nfet w=4 l=2
+M8 FA_5/int15 int31 FA_5/int38 gnd nfet w=4 l=2
+M12 FA_5/int37 B5 GND gnd nfet w=4 l=2
+M9 FA_5/int15 A5 FA_5/int37 gnd nfet w=4 l=2
+M6 FA_5/int15 int31 FA_5/int33 vdd pfet W=12 L=2 M=1
+M7 FA_5/int15 B5 FA_5/int34 vdd pfet W=12 L=2 M=1
+M5 FA_5/int34 A5 FA_5/int33 vdd pfet W=12 L=2 M=1
+M3 FA_5/int33 A5 Vdd vdd pfet W=12 L=2 M=1
+M4 FA_5/int33 B5 Vdd vdd pfet W=12 L=2 M=1
+M28 SUM5 FA_5/int12 GND gnd nfet w=4 l=2
+M21 FA_5/int16 A5 GND gnd nfet w=4 l=2
+M22 FA_5/int16 B5 GND gnd nfet w=4 l=2
+M23 FA_5/int16 int31 GND gnd nfet w=4 l=2
+M20 FA_5/int12 FA_5/int15 FA_5/int16 gnd nfet w=4 l=2
+M26 FA_5/int14 int31 GND gnd nfet w=4 l=2
+M25 FA_5/int13 B5 FA_5/int14 gnd nfet w=4 l=2
+M24 FA_5/int12 A5 FA_5/int13 gnd nfet w=4 l=2
+M27 SUM5 FA_5/int12 Vdd vdd pfet W=12 L=2 M=1
+M16 FA_5/int12 FA_5/int15 FA_5/int9 vdd pfet W=12 L=2 M=1
+M19 FA_5/int12 int31 FA_5/int11 vdd pfet W=12 L=2 M=1
+M18 FA_5/int11 B5 FA_5/int10 vdd pfet W=12 L=2 M=1
+M17 FA_5/int10 A5 FA_5/int9 vdd pfet W=12 L=2 M=1
+M13 FA_5/int9 int31 Vdd vdd pfet W=12 L=2 M=1
+M15 FA_5/int9 A5 Vdd vdd pfet W=12 L=2 M=1
+M14 FA_5/int9 B5 Vdd vdd pfet W=12 L=2 M=1
+M2 int31 FA_4/int15 GND gnd nfet w=4 l=2
+M1 int31 FA_4/int15 Vdd vdd pfet W=12 L=2 M=1
+M10 FA_4/int38 A4 GND gnd nfet w=4 l=2
+M11 FA_4/int38 B4 GND gnd nfet w=4 l=2
+M8 FA_4/int15 int30 FA_4/int38 gnd nfet w=4 l=2
+M12 FA_4/int37 B4 GND gnd nfet w=4 l=2
+M9 FA_4/int15 A4 FA_4/int37 gnd nfet w=4 l=2
+M6 FA_4/int15 int30 FA_4/int33 vdd pfet W=12 L=2 M=1
+M7 FA_4/int15 B4 FA_4/int34 vdd pfet W=12 L=2 M=1
+M5 FA_4/int34 A4 FA_4/int33 vdd pfet W=12 L=2 M=1
+M3 FA_4/int33 A4 Vdd vdd pfet W=12 L=2 M=1
+M4 FA_4/int33 B4 Vdd vdd pfet W=12 L=2 M=1
+M28 SUM4 FA_4/int12 GND gnd nfet w=4 l=2
+M21 FA_4/int16 A4 GND gnd nfet w=4 l=2
+M22 FA_4/int16 B4 GND gnd nfet w=4 l=2
+M23 FA_4/int16 int30 GND gnd nfet w=4 l=2
+M20 FA_4/int12 FA_4/int15 FA_4/int16 gnd nfet w=4 l=2
+M26 FA_4/int14 int30 GND gnd nfet w=4 l=2
+M25 FA_4/int13 B4 FA_4/int14 gnd nfet w=4 l=2
+M24 FA_4/int12 A4 FA_4/int13 gnd nfet w=4 l=2
+M27 SUM4 FA_4/int12 Vdd vdd pfet W=12 L=2 M=1
+M16 FA_4/int12 FA_4/int15 FA_4/int9 vdd pfet W=12 L=2 M=1
+M19 FA_4/int12 int30 FA_4/int11 vdd pfet W=12 L=2 M=1
+M18 FA_4/int11 B4 FA_4/int10 vdd pfet W=12 L=2 M=1
+M17 FA_4/int10 A4 FA_4/int9 vdd pfet W=12 L=2 M=1
+M13 FA_4/int9 int30 Vdd vdd pfet W=12 L=2 M=1
+M15 FA_4/int9 A4 Vdd vdd pfet W=12 L=2 M=1
+M14 FA_4/int9 B4 Vdd vdd pfet W=12 L=2 M=1
+M2 int30 FA_3/int15 GND gnd nfet w=4 l=2
+M1 int30 FA_3/int15 Vdd vdd pfet W=12 L=2 M=1
+M10 FA_3/int38 A3 GND gnd nfet w=4 l=2
+M11 FA_3/int38 B3 GND gnd nfet w=4 l=2
+M8 FA_3/int15 int29 FA_3/int38 gnd nfet w=4 l=2
+M12 FA_3/int37 B3 GND gnd nfet w=4 l=2
+M9 FA_3/int15 A3 FA_3/int37 gnd nfet w=4 l=2
+M6 FA_3/int15 int29 FA_3/int33 vdd pfet W=12 L=2 M=1
+M7 FA_3/int15 B3 FA_3/int34 vdd pfet W=12 L=2 M=1
+M5 FA_3/int34 A3 FA_3/int33 vdd pfet W=12 L=2 M=1
+M3 FA_3/int33 A3 Vdd vdd pfet W=12 L=2 M=1
+M4 FA_3/int33 B3 Vdd vdd pfet W=12 L=2 M=1
+M28 SUM3 FA_3/int12 GND gnd nfet w=4 l=2
+M21 FA_3/int16 A3 GND gnd nfet w=4 l=2
+M22 FA_3/int16 B3 GND gnd nfet w=4 l=2
+M23 FA_3/int16 int29 GND gnd nfet w=4 l=2
+M20 FA_3/int12 FA_3/int15 FA_3/int16 gnd nfet w=4 l=2
+M26 FA_3/int14 int29 GND gnd nfet w=4 l=2
+M25 FA_3/int13 B3 FA_3/int14 gnd nfet w=4 l=2
+M24 FA_3/int12 A3 FA_3/int13 gnd nfet w=4 l=2
+M27 SUM3 FA_3/int12 Vdd vdd pfet W=12 L=2 M=1
+M16 FA_3/int12 FA_3/int15 FA_3/int9 vdd pfet W=12 L=2 M=1
+M19 FA_3/int12 int29 FA_3/int11 vdd pfet W=12 L=2 M=1
+M18 FA_3/int11 B3 FA_3/int10 vdd pfet W=12 L=2 M=1
+M17 FA_3/int10 A3 FA_3/int9 vdd pfet W=12 L=2 M=1
+M13 FA_3/int9 int29 Vdd vdd pfet W=12 L=2 M=1
+M15 FA_3/int9 A3 Vdd vdd pfet W=12 L=2 M=1
+M14 FA_3/int9 B3 Vdd vdd pfet W=12 L=2 M=1
+M2 int29 FA_2/int15 GND gnd nfet w=4 l=2
+M1 int29 FA_2/int15 Vdd vdd pfet W=12 L=2 M=1
+M10 FA_2/int38 A2 GND gnd nfet w=4 l=2
+M11 FA_2/int38 B2 GND gnd nfet w=4 l=2
+M8 FA_2/int15 int28 FA_2/int38 gnd nfet w=4 l=2
+M12 FA_2/int37 B2 GND gnd nfet w=4 l=2
+M9 FA_2/int15 A2 FA_2/int37 gnd nfet w=4 l=2
+M6 FA_2/int15 int28 FA_2/int33 vdd pfet W=12 L=2 M=1
+M7 FA_2/int15 B2 FA_2/int34 vdd pfet W=12 L=2 M=1
+M5 FA_2/int34 A2 FA_2/int33 vdd pfet W=12 L=2 M=1
+M3 FA_2/int33 A2 Vdd vdd pfet W=12 L=2 M=1
+M4 FA_2/int33 B2 Vdd vdd pfet W=12 L=2 M=1
+M28 SUM2 FA_2/int12 GND gnd nfet w=4 l=2
+M21 FA_2/int16 A2 GND gnd nfet w=4 l=2
+M22 FA_2/int16 B2 GND gnd nfet w=4 l=2
+M23 FA_2/int16 int28 GND gnd nfet w=4 l=2
+M20 FA_2/int12 FA_2/int15 FA_2/int16 gnd nfet w=4 l=2
+M26 FA_2/int14 int28 GND gnd nfet w=4 l=2
+M25 FA_2/int13 B2 FA_2/int14 gnd nfet w=4 l=2
+M24 FA_2/int12 A2 FA_2/int13 gnd nfet w=4 l=2
+M27 SUM2 FA_2/int12 Vdd vdd pfet W=12 L=2 M=1
+M16 FA_2/int12 FA_2/int15 FA_2/int9 vdd pfet W=12 L=2 M=1
+M19 FA_2/int12 int28 FA_2/int11 vdd pfet W=12 L=2 M=1
+M18 FA_2/int11 B2 FA_2/int10 vdd pfet W=12 L=2 M=1
+M17 FA_2/int10 A2 FA_2/int9 vdd pfet W=12 L=2 M=1
+M13 FA_2/int9 int28 Vdd vdd pfet W=12 L=2 M=1
+M15 FA_2/int9 A2 Vdd vdd pfet W=12 L=2 M=1
+M14 FA_2/int9 B2 Vdd vdd pfet W=12 L=2 M=1
+M2 int28 FA_1/int15 GND gnd nfet w=4 l=2
+M1 int28 FA_1/int15 Vdd vdd pfet W=12 L=2 M=1
+M10 FA_1/int38 A1 GND gnd nfet w=4 l=2
+M11 FA_1/int38 B1 GND gnd nfet w=4 l=2
+M8 FA_1/int15 int27 FA_1/int38 gnd nfet w=4 l=2
+M12 FA_1/int37 B1 GND gnd nfet w=4 l=2
+M9 FA_1/int15 A1 FA_1/int37 gnd nfet w=4 l=2
+M6 FA_1/int15 int27 FA_1/int33 vdd pfet W=12 L=2 M=1
+M7 FA_1/int15 B1 FA_1/int34 vdd pfet W=12 L=2 M=1
+M5 FA_1/int34 A1 FA_1/int33 vdd pfet W=12 L=2 M=1
+M3 FA_1/int33 A1 Vdd vdd pfet W=12 L=2 M=1
+M4 FA_1/int33 B1 Vdd vdd pfet W=12 L=2 M=1
+M28 SUM1 FA_1/int12 GND gnd nfet w=4 l=2
+M21 FA_1/int16 A1 GND gnd nfet w=4 l=2
+M22 FA_1/int16 B1 GND gnd nfet w=4 l=2
+M23 FA_1/int16 int27 GND gnd nfet w=4 l=2
+M20 FA_1/int12 FA_1/int15 FA_1/int16 gnd nfet w=4 l=2
+M26 FA_1/int14 int27 GND gnd nfet w=4 l=2
+M25 FA_1/int13 B1 FA_1/int14 gnd nfet w=4 l=2
+M24 FA_1/int12 A1 FA_1/int13 gnd nfet w=4 l=2
+M27 SUM1 FA_1/int12 Vdd vdd pfet W=12 L=2 M=1
+M16 FA_1/int12 FA_1/int15 FA_1/int9 vdd pfet W=12 L=2 M=1
+M19 FA_1/int12 int27 FA_1/int11 vdd pfet W=12 L=2 M=1
+M18 FA_1/int11 B1 FA_1/int10 vdd pfet W=12 L=2 M=1
+M17 FA_1/int10 A1 FA_1/int9 vdd pfet W=12 L=2 M=1
+M13 FA_1/int9 int27 Vdd vdd pfet W=12 L=2 M=1
+M15 FA_1/int9 A1 Vdd vdd pfet W=12 L=2 M=1
+M14 FA_1/int9 B1 Vdd vdd pfet W=12 L=2 M=1
+M2 int27 FA_0/int15 GND gnd nfet w=4 l=2
+M1 int27 FA_0/int15 Vdd vdd pfet W=12 L=2 M=1
+M10 FA_0/int38 A0 GND gnd nfet w=4 l=2
+M11 FA_0/int38 B0 GND gnd nfet w=4 l=2
+M8 FA_0/int15 CIN FA_0/int38 gnd nfet w=4 l=2
+M12 FA_0/int37 B0 GND gnd nfet w=4 l=2
+M9 FA_0/int15 A0 FA_0/int37 gnd nfet w=4 l=2
+M6 FA_0/int15 CIN FA_0/int33 vdd pfet W=12 L=2 M=1
+M7 FA_0/int15 B0 FA_0/int34 vdd pfet W=12 L=2 M=1
+M5 FA_0/int34 A0 FA_0/int33 vdd pfet W=12 L=2 M=1
+M3 FA_0/int33 A0 Vdd vdd pfet W=12 L=2 M=1
+M4 FA_0/int33 B0 Vdd vdd pfet W=12 L=2 M=1
+M28 SUM0 FA_0/int12 GND gnd nfet w=4 l=2
+M21 FA_0/int16 A0 GND gnd nfet w=4 l=2
+M22 FA_0/int16 B0 GND gnd nfet w=4 l=2
+M23 FA_0/int16 CIN GND gnd nfet w=4 l=2
+M20 FA_0/int12 FA_0/int15 FA_0/int16 gnd nfet w=4 l=2
+M26 FA_0/int14 CIN GND gnd nfet w=4 l=2
+M25 FA_0/int13 B0 FA_0/int14 gnd nfet w=4 l=2
+M24 FA_0/int12 A0 FA_0/int13 gnd nfet w=4 l=2
+M27 SUM0 FA_0/int12 Vdd vdd pfet W=12 L=2 M=1
+M16 FA_0/int12 FA_0/int15 FA_0/int9 vdd pfet W=12 L=2 M=1
+M19 FA_0/int12 CIN FA_0/int11 vdd pfet W=12 L=2 M=1
+M18 FA_0/int11 B0 FA_0/int10 vdd pfet W=12 L=2 M=1
+M17 FA_0/int10 A0 FA_0/int9 vdd pfet W=12 L=2 M=1
+M13 FA_0/int9 CIN Vdd vdd pfet W=12 L=2 M=1
+M15 FA_0/int9 A0 Vdd vdd pfet W=12 L=2 M=1
+M14 FA_0/int9 B0 Vdd vdd pfet W=12 L=2 M=1
+.end

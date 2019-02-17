@@ -1,0 +1,14 @@
+
+Subcircuit summary:
+Circuit 1: FA.spc                          |Circuit 2: FA.spice                        
+-------------------------------------------|-------------------------------------------
+nfet (14)                                  |nfet (14)                                  
+pfet (14)                                  |pfet (14)                                  
+Number of devices: 28                      |Number of devices: 28                      
+Number of nets: 19                         |Number of nets: 19                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes FA.spc and FA.spice are equivalent.
+Circuits match uniquely.

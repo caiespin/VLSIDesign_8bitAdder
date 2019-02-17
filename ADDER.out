@@ -1,0 +1,14 @@
+
+Subcircuit summary:
+Circuit 1: ADDER.fspc                      |Circuit 2: ADDER.spice                     
+-------------------------------------------|-------------------------------------------
+nfet (112)                                 |nfet (112)                                 
+pfet (112)                                 |pfet (112)                                 
+Number of devices: 224                     |Number of devices: 224                     
+Number of nets: 131                        |Number of nets: 131                        
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes ADDER.fspc and ADDER.spice are equivalent.
+Circuits match uniquely.
